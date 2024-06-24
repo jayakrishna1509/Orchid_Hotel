@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Royal Orchid</title>
+    <link rel="icon" href="images/symbol.png">
+</head>
+
+<!-- LANDING PAGE -->
+<body>
+    <header class="header">
+        <!--== Header ==-->
+        <nav>
+            <div class="nav__bar">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt="logo" /></a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="btn nav__btn">Book Now</button>
+        </nav>
+        <div class="section__container header__container" id="home">
+            <p>Where Comfort Meets Convenience</p>
+            <h1>Feel Right At <span>Home</span><br />During Your Stay With Us</h1>
+        </div>
+    </header>
+
+    <section class="section__container booking__container">
+        <!--== Check in section ==-->
+        <form action="/" class="booking__form">
+            <div class="input__group">
+                <span><i class="ri-calendar-2-fill"></i></span>
+                <div>
+                    <label for="check-in">CHECK-IN</label>
+                    <input type="text" placeholder="Check In" />
+                </div>
+            </div>
+            <div class="input__group">
+                <span><i class="ri-calendar-2-fill"></i></span>
+                <div>
+                    <label for="check-out">CHECK-OUT</label>
+                    <input type="text" placeholder="Check Out" />
+                </div>
+            </div>
+            <div class="input__group">
+                <span><i class="ri-user-fill"></i></span>
+                <div>
+                    <label for="guest">GUEST</label>
+                    <input type="text" placeholder="Guest" />
+                </div>
+            </div>
+            <div class="input__group input__btn">
+                <button class="btn">CHECH OUT</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="section__container about__container" id="about">
+        <!--== About ==-->
+        <div class="about__image">
+            <img src="./images/about.jpg" alt="">
+        </div>
+        <div class="about__content">
+            <p class="section__subheader">
+                ABOUT US
+            </p>
+            <h2 class="section__header">
+                Your Gateway to Unforgottable Moments!
+            </h2>
+            <p class="section__description">
+                With an emphasis on exceptional accommodations, tailor-made experiences, and effortless
+                booking, our platforms is committed to gurantee that every traveler sets off on their dream
+                vacation with assurance and enthusiasm.
+            </p>
+            <div class="about__btn">
+                <button class="btn">
+                    Read More
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container room__container">
+        <!--== Rooms ==-->
+        <p class="section__subheader">
+            WELCOME TO OUR LIVING ROOM
+        </p>
+        <h2 class="section__header">
+            Where Unforgottable Relaxation Mood Begins.
+        </h2>
+        <div class="room__grid">
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="images/room-1.jpg" alt="room">
+                    <div class="room__card__icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Hilltop Heaven</h4>
+                    <p>Embrace the beauty of nature with panoromic hill views from your frozen escape.</p>
+                    <h5>
+                        Starting from <span>₹899/Night</span>
+                    </h5>
+                    <button class="btn">Book Now</button>
+                </div>
+            </div>
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="images/room-2.jpg" alt="room">
+                    <div class="room__card__icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Forest Heaven</h4>
+                    <p>Unwind in Woodland luxury at our forest heaven, perfect for creating cherished memories.</p>
+                    <h5>
+                        Starting from <span>₹1099/Night</span>
+                    </h5>
+                    <button class="btn">Book Now</button>
+                </div>
+            </div>
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="images/room-3.jpg" alt="room">
+                    <div class="room__card__icons">
+                        <span><i class="ri-heart-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Falls Edge Retreat</h4>
+                    <p>Experience serenity with a mesmerizing waterfall view from your forest retreat.With Cheapest price.</p>
+                    <h5>
+                        Starting from <span>₹1499/Night</span>
+                    </h5>
+                    <button class="btn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <!--== Services ==-->
+        <div class="section__container service__container">
+            <div class="service__content">
+                <p class="section__subheader">
+                    SERVICES
+                </p>
+                <h2 class="section__header">
+                    Aim for Excellence.
+                </h2>
+                <ul class="service__list">
+                    <li>
+                        <span><i class="ri-shield-star-line"></i></span>
+                        Premium Security Standards
+                    </li>
+                    <li>
+                        <span><i class="ri-24-hours-line"></i></span>
+                        Around the Clock Assistance
+                    </li>
+                    <li>
+                        <span><i class="ri-customer-service-fill"></i></span>
+                        Meeting Facilities
+                    </li>
+                    <li>
+                        <span><i class="ri-map-pin-line"></i></span>
+                        Tour Assistance Service
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container banner__container">
+        <!--== Data ==-->
+        <div class="banner__content">
+            <div class="banner__card">
+                <h4>30+</h4>
+                <p>Properties Available</p>
+            </div>
+            <div class="banner__card">
+                <h4>460+</h4>
+                <p>Bookings Completed</p>
+            </div>
+            <div class="banner__card">
+                <h4>1000+</h4>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore" id="explore">
+        <!--== Explore ==-->
+        <p class="section__subheader">
+            EXPLORE
+        </p>
+        <h2 class="section__header">
+            What's New Today 
+        </h2>
+        <div class="explore__bg">
+            <div class="explore__content">
+                <p class="section__description">
+                    YEAR OF 2024
+                </p>
+                <h4>
+                    Introducing Our Latest Jumbo Creations!
+                </h4>
+                <button class="btn">
+                    Continue
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <!--== Footer ==-->
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <h4>ROYAL ORCHID</h4>
+                <p class="section__description">
+                    Discover a world of comfort, luxury, and 
+                    adventure as you explore our curated selection 
+                    of hotels, making every moment of your 
+                    gateway truly extraordinary.
+                </p>
+                <button class="btn">
+                    Book Now
+                </button>
+            </div>
+            <div class="footer__col">
+                <h4>QUICK LINKS</h4>
+                <ul class="footer__links">
+                    <li><a href="#">Browse Destinations</a></li>
+                    <li><a href="#">Special Offers & Packages</a></li>
+                    <li><a href="#">Room Types & Amenities</a></li>
+                    <li><a href="#">Customer Reviews & Ratings</a></li>
+                    <li><a href="#">Travel Tips & Guides</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>
+                    OUR SERVICES
+                </h4>
+                <ul class="footer__links">
+                    <li><a href="#">Coverage Assistance</a></li>
+                    <li><a href="#">Flexible Booking Options</a></li>
+                    <li><a href="#">Airport Transfers</a></li>
+                    <li><a href="#">Wellness & Recreation</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>CONTACT US</h4>
+                <ul class="footer__links">
+                    <li><a href="#">royalorchid@gmail.com</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+                    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bar">
+            Copyright © 2024 Code With Jayakrishna. All rights reserved.
+        </div>
+        <div class="arrow" id="arrow">
+            <i class="ri-arrow-up-line"></i>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
